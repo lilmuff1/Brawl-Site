@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    font-family: 'Lobster', cursive;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 15% auto;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 4px 10px 25px 0px rgba(0, 0, 0, 0.529) ;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+} 
+
+.a input{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(255, 38, 0);
+    outline: none;
+    transition: .3s;
+}
+.a button{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(255, 38, 0);
+    outline: none;
+    transition: .3s;
+}
+.info input:hover{
+    background: linear-gradient(orangered, gold);
+}
+.info input:focus{
+background:  linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
+}
