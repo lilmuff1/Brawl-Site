@@ -3,6 +3,6 @@ button.addEventListener("click", (e) => {
     let link = document.querySelector(".link").value
     if (link.length > 0){
     link = `brawlstars://webview?page=${link};popup_title=TG:@prostobrawl2`
-    console.log(link)
+    window.location.href = link
    } 
 })
